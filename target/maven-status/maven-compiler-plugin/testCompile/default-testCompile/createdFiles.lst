@@ -1,0 +1,6 @@
+test\example\WebDriverFactory.class
+test\example\CucumberFeaturesPrerequisiteIT.class
+test\example\CucumberFeaturesSearchIT.class
+test\example\stepdefs\DemoSearchStepDefs.class
+test\example\pageobjects\DemoPageObjects.class
+test\example\stepdefs\DemoPrerequisiteStepDefs.class

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="CucumberSeleniumDemoSuite" duration-ms="60745" started-at="2017-07-11T11:34:36Z" finished-at="2017-07-11T11:35:37Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.example.CucumberFeaturesPrerequisiteIT@54a097cc]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.example.CucumberFeaturesSearchIT@3246fb96]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="DemoPrerequisites" duration-ms="18103" started-at="2017-07-11T11:34:36Z" finished-at="2017-07-11T11:34:54Z">
+      <class name="test.example.CucumberFeaturesPrerequisiteIT">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test.example.CucumberFeaturesPrerequisiteIT@54a097cc]" name="setUpClass" is-config="true" duration-ms="384" started-at="2017-07-11T17:04:36Z" finished-at="2017-07-11T17:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.example.CucumberFeaturesPrerequisiteIT@54a097cc]" name="feature" duration-ms="17472" started-at="2017-07-11T17:04:37Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-07-11T17:04:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accessing the Demo site is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:test.example.CucumberFeaturesPrerequisiteIT@54a097cc]" name="tearDownClass" is-config="true" duration-ms="32" started-at="2017-07-11T17:04:54Z" finished-at="2017-07-11T17:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.example.CucumberFeaturesPrerequisiteIT -->
+    </test> <!-- DemoPrerequisites -->
+    <test name="DemoSearch" duration-ms="42443" started-at="2017-07-11T11:34:54Z" finished-at="2017-07-11T11:35:37Z">
+      <class name="test.example.CucumberFeaturesSearchIT">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:test.example.CucumberFeaturesSearchIT@3246fb96]" name="setUpClass" is-config="true" duration-ms="21" started-at="2017-07-11T17:04:54Z" finished-at="2017-07-11T17:04:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.example.CucumberFeaturesSearchIT@3246fb96]" name="feature" duration-ms="24821" started-at="2017-07-11T17:04:54Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-07-11T17:05:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accessing the Demo site using a search field]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:test.example.CucumberFeaturesSearchIT@3246fb96]" name="feature" duration-ms="17582" started-at="2017-07-11T17:05:19Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2017-07-11T17:05:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Accessing the Demo site using a search field]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:test.example.CucumberFeaturesSearchIT@3246fb96]" name="tearDownClass" is-config="true" duration-ms="2" started-at="2017-07-11T17:05:37Z" finished-at="2017-07-11T17:05:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- test.example.CucumberFeaturesSearchIT -->
+      <class name="test.example.stepdefs.DemoSearchStepDefs">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:test.example.stepdefs.DemoSearchStepDefs@2e222612]" name="tearDown" is-config="true" duration-ms="3874" started-at="2017-07-11T17:05:37Z" finished-at="2017-07-11T17:05:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- test.example.stepdefs.DemoSearchStepDefs -->
+    </test> <!-- DemoSearch -->
+  </suite> <!-- CucumberSeleniumDemoSuite -->
+</testng-results>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [CucumberSeleniumDemoSuite]">
+  <test name="DemoPrerequisites">
+    <classes>
+      <class name="test.example.CucumberFeaturesPrerequisiteIT"/>
+      <class name="test.example.stepdefs.DemoPrerequisiteStepDefs"/>
+    </classes>
+  </test> <!-- DemoPrerequisites -->
+  <test name="DemoSearch">
+    <classes>
+      <class name="test.example.CucumberFeaturesSearchIT"/>
+      <class name="test.example.stepdefs.DemoSearchStepDefs"/>
+    </classes>
+  </test> <!-- DemoSearch -->
+</suite> <!-- Failed suite [CucumberSeleniumDemoSuite] -->
